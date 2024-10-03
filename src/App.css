@@ -1,12 +1,11 @@
 .App {
   text-align: center;
   position: fixed;
-  min-height: 100vh;
-  min-height: 100dvh;
+  height: 100vh;
+  height: 100dvh;
   width: 100vw;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(255, 250, 243);
+  overflow-y: auto;
+  background: #F4F4F4;
 }
 
 .App-logo {
